@@ -1,5 +1,7 @@
 package com.oblach;
 
+import java.util.ArrayList;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -32,9 +34,9 @@ public class Main {
 
         //Двухмерный статический массив
 
-        int[][] dvuh_stat = {{ 0, 1, 2},
-                            {1, 2, 3},
-                            {2, 3, 4}};
+        int[][] dvuh_stat = {{0, 1, 2},
+                             {1, 2, 3},
+                             {2, 3, 4}};
 
         System.out.println("dvuh_stat: ");
         for (int i = 0; i < 3;i++) {
@@ -132,7 +134,7 @@ public class Main {
 
 
                                 РАЗВИВАЕМСЯ САМИ!
-  Прочитать про List и ArrayList, описать технологии. Сделать табличку со сравнительным анализом.
+  Прочитать про List и ArrayList, описать технологии. Сделать табличку со сравнительным анализом (ArrayList и массив).
   Сделать табличку с описанием их функций и методов. Перерешать все задания, в которых не используется матрица,
   с помощью ArrayList!
 */
